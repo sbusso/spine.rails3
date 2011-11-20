@@ -1,0 +1,26 @@
+<h1>Listing Pages</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Body</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+{{#each pages }}
+  <tr class="item" data-id=" {{ id }} ">
+    <td> {{ name }} </td>
+    <td>{{ body }} </td>
+    <td><a data-type="show">Show</a></td>
+    <td><a data-type="edit">Edit</a></td>
+    <td><a data-type="destroy">Destroy</a></td>
+  </tr>
+{{/each }}
+
+</table>
+
+<br />
+
+<a data-type="new">New Page</a>
