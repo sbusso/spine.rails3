@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+# source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 
@@ -17,7 +17,7 @@ end
 
 gem 'jquery-rails'
 gem 'juggernaut'
-gem 'spine-juggernaut-rails', :path => '../spine-juggernaut-rails'
+gem 'spine-juggernaut-rails', :git => 'https://github.com/sbusso/spine-juggernaut-rails.git'
 gem 'handlebars_assets'
 
 group :production do

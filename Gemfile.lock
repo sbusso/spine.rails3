@@ -1,11 +1,11 @@
-PATH
-  remote: ../spine-juggernaut-rails
+GIT
+  remote: https://github.com/sbusso/spine-juggernaut-rails.git
+  revision: df3c9dbf8c5140a84f609c03a6e0557bf7acb186
   specs:
     spine-juggernaut-rails (0.0.1)
       juggernaut
 
 GEM
-  remote: http://rubygems.org/
   specs:
     actionmailer (3.1.1)
       actionpack (= 3.1.1)
