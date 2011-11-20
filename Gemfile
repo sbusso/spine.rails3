@@ -17,6 +17,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'juggernaut'
+gem 'spine-juggernaut-rails', :path => '../spine-juggernaut-rails'
+gem 'execjs'
 
 group :production do
   gem 'pg'
