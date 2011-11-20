@@ -13,13 +13,12 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'spine-rails'
-  gem 'eco'
 end
 
 gem 'jquery-rails'
 gem 'juggernaut'
 gem 'spine-juggernaut-rails', :path => '../spine-juggernaut-rails'
-gem 'execjs'
+gem 'handlebars_assets'
 
 group :production do
   gem 'pg'

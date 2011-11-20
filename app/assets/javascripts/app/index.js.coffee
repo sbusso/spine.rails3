@@ -6,6 +6,7 @@
 #= require spine/route
 #= require_tree ./lib
 #= require juggernaut_handler
+#= require handlebars.js
 #= require_self
 #= require_tree ./models
 #= require_tree ./controllers
